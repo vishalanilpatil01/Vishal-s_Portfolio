@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISHAL - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.02rem;
+            font: 900;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 65px 0px;
+
+        }
+
+        .firstSection>div {
+
+            width: 30%;
+
+        }
+
+        .leftSection {
+
+            font-size: 2rem;
+            text-align: center;
+
+
+        }
+
+        .rightSection img {
+
+            width: 80%;
+
+
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+
+            color: rgb(170, 107, 228);
+            ;
+        }
+
+        .secondSection {
+
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 100px;
+        }
+
+
+        .img-top {
+            width: 23px;
+        }
+
+        .front {
+
+            width: 800px;
+            height: 400px;
+        }
+
+        .firstSection2 {
+            display: flex;
+            justify-content: space-around;
+            text-align: justify;
+        }
+
+        
+
+        .firstSection2>div {
+            width: 30%;
+        }
+
+        .abt{
+
+            text-align: center;
+            margin: 70px;
+        }
+
+        .pro{
+            display: flex;
+            margin: 5px 0px;
+        }
+
+        .firstSection3{
+            margin: 0% 20% ;
+            justify-content: center;
+            text-align: justify;
+           
+        }
+       
+        .resume{
+
+          text-align: center ;
+           margin: 30px 50px;
+        }
+
+        #element2{
+         
+            font-weight: bolder;
+            
+        }
+
+        .vertical{
+
+            margin: 200px 0px ;
+            text-align: center;
+            
+        }
+        .vertical-text {
+            margin: 75px 0px 0px 0px ;
+            font-weight: bold;
+        }
+
+        .vertical-desc {
+            margin: 15px 0px ;
+           
+        }
+
+        .edc {
+
+            text-align: center;
+        }
+
+        .leftSection4{
+            background-color: rgb(18, 18, 62);
+            padding: 100px 50px;
+            border-radius: 50px;
+
+        }
+
+        
+
+        .rightSection4{
+            background-color: rgb(18, 18, 62);
+            padding: 100px 50px;
+            border-radius: 50px;
+        }
+
+        .firstSection4{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 65px 0px;
+           
+        }
+
+
+
+
+
+
+
+.contact-container {
+    background-color:rgb(18, 18, 62);
+    color: white;
+    padding: 60px 30px 50px 50px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 200px;
+}
+
+.contact-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 18px;
+    color: white;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ff6f61;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: left;
+}
+
+footer{
+  padding:5px;
+  text-align:center;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8p;
+}
+
+.ed{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.btn1{
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+}
+
+.b-text{
+
+    text-decoration: none;
+    font-weight:;
+    
+}
+
+.btn1:hover{
+     font-weight: bolder;
+    cursor: pointer;
+}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Vishal's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">Resume</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="firstSection">
+            <div class="leftSection">Hi, My name is<span class="purple"> Vishal</span>
+                <div>& I am a passionate</div>
+                <span id="element"></span>
+
+            </div>
+
+            <div class="rightSection">
+                <img class="front" src="5ok.webp" alt="">
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <hr>
+        <h1 id="about" class="abt">About Me</h1>
+        <section class="firstSection2">
+            <div class="">
+          <div class="pro" ><span class="purple">Profile      :</span>Web Developer.</div>
+          <div class="pro" ><span class="purple">Domain       :</span>Web Developer &Designer.</div>
+          <div class="pro" ><span class="purple">Education    :</span>Bechelor of technology.</div>
+          <div class="pro" ><span class="purple">Language     :</span>English, Hindi, Marathi.</div>
+          <div class="pro" ><span class="purple">Other Skills :</span>Web Developer.</div>
+          <div class="pro" ><span class="purple">Intrest      :</span>Web developing & designing, Traveling.</div>
+            </div>
+
+            <div class="rightSection2">
+                
+                <span>     Hi, I'm Vishal Anil Patil, a full stack web developer and B.Tech graduate. I specialize in
+                    creating dynamic, user-friendly web applications with a focus on performance and efficiency. With a
+                    strong foundation in both front-end and back-end technologies, I bring a comprehensive approach to
+                    developing seamless digital experiences.</span>
+            </div>
+        </section>
+
+
+        <hr>
+
+        <div id="resume" class="firstSection3">
+            <h1 class="abt">Resume</h1>     
+            <span id="element2" class="resume"></span>
+        </div>
+
+        <hr>
+
+
+        <h1 class="edc">Education</h1>
+
+        <section class="firstSection4">
+            <div class="leftSection4">
+<div class="ed">2019-2022</div>
+<div class="ed">Diploma In Computer Engineering</div>
+<div class="ed">MAHARASHTRA STATE BOARD OF TECHNICAL EDUCATION</div>
+<div class="ed">Grade: percentage-[ 73.03% ]</div>
+            </div>
+
+            <div class="rightSection4">
+                <div class="ed">2022-2025</div>
+                <div class="ed">B.TECH In Computer Engineering</div>
+                <div class="ed">DR. BABASAHEB TECHNICAL UNIVERCITY, LONERE</div>
+                <div class="ed">Grade: cgpa-[ 6.9/10 ]</div>
+            </div>
+        </section>
+
+
+        <hr>
+        <section id="project" class="secondSection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>My Projects</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text purple">
+                        Twitter Clone   
+                    </div>
+                    <div class="vertical-desc text-gray">
+                       (Tailwind)
+                    </div>
+                    <div class="vertical-desc">
+                        <button class="btn1"><a class="b-text" href="https://github.com/vishalanilpatil">view project</a></button>
+                     </div>
+                  
+
+
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text purple">
+                        V Chat App
+                    </div>
+                    <div class="vertical-desc text-gray">
+                        (Node.js & Socket.io)
+                     </div>
+                    <div class="vertical-desc">
+                       <button class="btn1"><a class="b-text" href="https://github.com/vishalanilpatil">view project</a></button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text purple">
+                        Recipe App
+                    </div>
+                    <div class="vertical-desc text-gray">
+                        (MERN)
+                     </div>
+                    <div class="vertical-desc">
+                       <button class="btn1"><a class="b-text" href="https://github.com/vishalanilpatil">view project</a></button>
+                    </div>
+                </div>
+
+
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text purple">
+                        i-Todo App
+                    </div>
+                    <div class="vertical-desc text-gray">
+                        (React & Tailwind)
+                     </div>
+                    <div class="vertical-desc">
+                       <button class="btn1"><a class="b-text" href="https://github.com/vishalanilpatil">view project</a></button>
+                    </div>
+
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text purple">
+                        Shopy App
+                    </div>
+                    <div class="vertical-desc text-gray">
+                        (Responsive)
+                     </div>
+                    <div class="vertical-desc">
+                       <button class="btn1"><a class="b-text" href="https://github.com/vishalanilpatil">view project</a></button>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <hr>
+        <div id="contact" class="contact-container">
+            <h1>Contact Information</h1>
+            <div class="contact-item">
+                <span class="icon">📍</span>
+                <span class="contact-info">Pune, Maharashtra, India</span>
+            </div>
+            <div class="contact-item">
+                <span class="icon">📞</span>
+                <span class="contact-info">+91 9359258891</span>
+            </div>
+            <div class="contact-item">
+                <span class="icon">✉️</span>
+                <span class="contact-info">Vishalanilpatil01@gmail.com</span>
+            </div>
+        </div>
+       
+        <footer class="foot">
+            Copyright &copy; Vishal'sPortfolio.com | All rights reserved
+          </footer>
+
+    </main>
+
+    <!-- Setup and start animation! -->
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['UI Designer', 'Video Editor', 'Web Developer', 'Digital Marketing...',],
+            typeSpeed: 80,
+        });
+    </script>
+    <script>
+        var typed = new Typed('#element2', {
+            strings: ['I am a skilled web developer with comprehensive experience in front-end and back-end development, as well as UI design. I have successfully worked on diverse projects, including eCommerce websites, clone websites, and dynamic web applications. My expertise enables me to create efficient, user-friendly, and visually appealing digital solutions.....',],
+            typeSpeed: 10,
+        });
+    </script>
+
+</body>
+
+</html>
